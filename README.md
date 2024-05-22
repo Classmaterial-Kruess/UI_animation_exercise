@@ -37,6 +37,9 @@ Step 4:
 We say what should happen when checkbox = checked
 Changes to the display properties or the width/height are popular
 
+Note: Until now, this was only possible with sibling selectors like `~` or `+`
+But now you can build the same result with `has`, `is`, `where`.
+
 ```
 <label>
   <input type="checkbox" id="name">
