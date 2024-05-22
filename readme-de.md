@@ -38,6 +38,9 @@ Schritt 4:
 Wir sagen was gescheheben soll, wenn checkbox = checked
 Beliebt sind änderungen der display Eigenschaften oder der width/height
 
+Hinweis: Bisher ging soetwas nur mit Sibling-Selektoren wie `~` oder `+`
+Doch nun kann man das selbe ergebnis mit `has`, `is`, `where`  aufbauen.
+
 ```
   <label>
     <input type="checkbox" id="name">
